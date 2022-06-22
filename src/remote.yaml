@@ -1,0 +1,6 @@
+hosts: [darintest.gremlin.cosmos.azure.cn]
+port: 443
+username: /dbs/graphdb/colls/Persons
+password: WLrM1FZFAgUaEQo5ArBeDQYxujLTMtrYuJxqMTdwEHpgCLvKzAWbYfjoIgOeDGpvuSLUKkuSQN5C5RTTYfW0qw==
+connectionPool: {enableSsl: true}
+serializer: { className: org.apache.tinkerpop.gremlin.driver.ser.GraphSONMessageSerializerV2d0, config: { serializeResultToString: true }}
